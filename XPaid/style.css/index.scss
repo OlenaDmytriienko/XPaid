@@ -1,0 +1,107 @@
+*,
+p,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 34px;
+  padding-bottom: 12px;
+}
+.main {
+  margin: 0px auto;
+  vertical-align: middle;
+  height: 100vh;
+  max-width: 400px;
+  &__title {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  &__text {
+    font-size: 17px;
+    padding-bottom: 18px;
+  }
+  &__post {
+    font-size: 17px;
+    padding-bottom: 6px;
+  }
+  &__btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 68px;
+  }
+  &__logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 71px;
+    padding-bottom: 57px;
+
+  }
+  &__checkbox {
+    display: flex;
+    align-items: center;
+  }
+  //   &__col1 {
+  //  margin-left: 20px;
+  //   }
+  @media (max-width: 480px) {
+    margin-left: 0 auto;
+    text-align: center;
+  }
+}
+.form {
+  margin-bottom: 18px;
+  &-group {
+    margin-bottom: 18px;
+  }
+  &-check {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 12px;
+  }
+  &-text {
+    font-size: 13px;
+  }
+  @media (max-width: 480px) {
+    max-width: 440px;
+    margin-bottom: 0px;
+  }
+}
+.btn1 {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  padding: 4px 14px;
+  color: white;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 6px;
+  background-image: linear-gradient(
+    rgba(75, 145, 247, 1),
+    rgba(54, 122, 246, 1)
+  );
+}
+.label__text {
+  font-size: 17px;
+}
+.form-control {
+  @media (max-width: 480px) {
+    margin-bottom: 18px;
+  }
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0px;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
